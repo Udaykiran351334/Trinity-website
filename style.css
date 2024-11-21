@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.out{
+    border: solid 1px;
+    height: 170px;
+    display: flex;
+}
+#box1,#box2,#box3{
+    border: solid 1px;
+    height: 170px;
+}
+#box1{
+    width: 170px;
+}
+#box2{
+    width: 1005px;
+    text-align: center;
+    background-color: rgba(241, 200, 124, 0.822);
+}
+#box3{
+    width: 170px;
+}
+#clgname{
+    font-size: 40px;
+    color: rgb(161, 2, 2);
+}
+#text1{
+    color: red;
+}
+#textscroll{
+    font-size: 20px;
+    color: maroon;
+    font-weight: bold;
+}
+#navbox{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 219px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    background-color: lightblue;
+    border-radius: 10px;
+    margin-right: 2px;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color:black;
+    font-size: 23px;
+    text-decoration: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li:hover{
+    background-color: rgb(0, 195, 255);
+    
+}
+#clg{
+    border: solid 1px;
+    height: 350px;
+}
